@@ -1,3 +1,4 @@
+/* Full page styling */
 * {
   color: seashell;
   font-family: Helvetica;
@@ -11,6 +12,12 @@ body {
   opacity: 0.9;
   background-color: black;
 }
+
+h2, h3, h4 {
+  margin: 0;
+  padding: 10px;
+}
+/* end */
 
 /* Header */
 header {
@@ -65,11 +72,14 @@ nav span a {
   margin: auto;
   background-color: black;
 }
-
-.top-text-content h2, .top-text-content h4 {
-  margin: 0;
-  padding: 10px;
-}
 /* top end */
 
 /* Middle */
+.middle {
+  width: 1000px;
+  margin: 70px auto;
+}
+
+.middle-text-content {
+  text-align: center;
+}
