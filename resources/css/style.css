@@ -82,4 +82,20 @@ nav span a {
 
 .middle-text-content {
   text-align: center;
+  margin-bottom: 20px;
+}
+
+.middle-img-content {
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: center;
+}
+
+.image {
+  padding: 0 15px;
+}
+
+.image img {
+  height: 200px;
+  width: 300px;
 }
