@@ -134,8 +134,11 @@ nav span a {
 .footer {
   height: 200px;
 }
+/* footer end */
 
+/* Copyright */
 .copyright {
   text-align: left;
   padding-left: 20px;
 }
+/* copyright end */
